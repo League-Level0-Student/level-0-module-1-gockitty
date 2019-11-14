@@ -4,10 +4,23 @@ import javax.swing.JOptionPane;
 
 public class unbirthday {
 public static void main(String[] args) {
-String Birthday = 	JOptionPane.showInputDialog(null, "{When is your birthday?");
 	
-	
-	
-	
+String name = 	JOptionPane.showInputDialog(null, "{When is your exact birthday?");
+
+if(name.equals("11/13")) {
+	JOptionPane.showMessageDialog(null, "Happy Birthday!" );
+}
+else {
+
+	JOptionPane.showMessageDialog(null, "Happy UNbirthday!");
 }
 }
+
+
+
+		
+}
+	
+	
+
+
