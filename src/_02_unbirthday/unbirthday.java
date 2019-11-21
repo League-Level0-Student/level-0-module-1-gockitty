@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	
 String name = 	JOptionPane.showInputDialog(null, "{When is your exact birthday?");
 
-if(name.equals("11/13")) {
+if(name.equals("11/20")) {
 	JOptionPane.showMessageDialog(null, "Happy Birthday!" );
 }
 else {
